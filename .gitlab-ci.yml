@@ -1,0 +1,6 @@
+gridka:
+   type: build
+   script:
+    - sypen.py module -p $CI_PROJECT_ID -b $CI_BUILD_REF_NAME -i $CI_BUILD_ID -r $CI_BUILD_REF
+   tags:
+    - puppy-gridka
